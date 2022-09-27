@@ -72,15 +72,15 @@
   "project": {
     "files": [
       {
-        "name": "simple_heart.kicad_pcb",
-        "open": false,
+        "name": "simple_heart.kicad_sch",
+        "open": true,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
-          "pos_x": 2170,
-          "pos_y": 32,
+          "pos_x": 286,
+          "pos_y": 0,
           "size_x": 1440,
-          "size_y": 827
+          "size_y": 995
         }
       }
     ]
