@@ -1,6 +1,2 @@
-
-simple_heart/\#auto_saved_files\#
+# Avoid backup folders
 *.zip
-simple_heart/simple_heart-backups/simple_heart-2022-09-22_044915.zip
-simple_heart/_autosave-simple_heart.kicad_sch
-simple_heart/_autosave-simple_heart.kicad_pcb
