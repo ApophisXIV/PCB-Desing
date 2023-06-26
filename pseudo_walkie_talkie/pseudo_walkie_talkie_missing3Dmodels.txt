@@ -1,0 +1,13 @@
+### Missing 3D models - created on 2023-06-05 02:17
+### Printed by checking_3D_models plugin
+Board file: /home/guido/Documents/Github/Hardware/pseudo_walkie_talkie/pseudo_walkie_talkie.kicad_pcb
+3D missing models written to:
+/home/guido/Documents/Github/Hardware/pseudo_walkie_talkie/pseudo_walkie_talkie_missing3Dmodels.txt
+-------
+('A1', '/home/guido/Documents/Github/Hardware/pseudo_walkie_talkie/3d_models/arduino nano alt 2.STEP')
+('A1', '${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x15_P2.54mm_Vertical.step')
+('J2', '${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl')
+('J4', '${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl')
+-------
+NUM of 3D missing models:4
+checked extensions ['.stp', '.step', '.stpZ']
