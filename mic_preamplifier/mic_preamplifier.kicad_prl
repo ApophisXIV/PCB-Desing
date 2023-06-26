@@ -70,31 +70,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "mic_preamplifier.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 1920,
-          "pos_y": 32,
-          "size_x": 848,
-          "size_y": 996
-        }
-      },
-      {
-        "name": "mic_preamplifier.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 2170,
-          "pos_y": 32,
-          "size_x": 1440,
-          "size_y": 659
-        }
-      }
-    ]
+    "files": []
   }
 }
