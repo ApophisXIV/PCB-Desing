@@ -641,8 +641,8 @@
     (property "Datasheet" "~" (at 172.72 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ce17559b-6787-4cd9-ab2f-7198d00028bb))
-    (pin "2" (uuid c034eae7-0a35-4dc5-a6a4-45612d4f5f34))
+    (pin "1" (uuid ff7e8eef-3710-423c-8751-6093ae3bfb3e))
+    (pin "2" (uuid 2e6c5591-e270-4638-9944-07acfcac60e1))
     (instances
       (project "pseudo_walkie_talkie"
         (path "/9815d1f2-b58e-4e11-ae6c-807f9f1997ad/783f718b-b676-4f53-a70d-4a9ccd49facd"
@@ -667,8 +667,8 @@
     (property "Datasheet" "~" (at 134.62 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0054d0b0-42df-42e8-9802-595160de6f93))
-    (pin "2" (uuid 3a181d11-7f79-4488-9b1e-b1511e553007))
+    (pin "1" (uuid b078e27c-289e-45cd-8f91-14e984d64579))
+    (pin "2" (uuid d7e7f956-b5cd-4c98-8f8f-e943beca5138))
     (instances
       (project "pseudo_walkie_talkie"
         (path "/9815d1f2-b58e-4e11-ae6c-807f9f1997ad/783f718b-b676-4f53-a70d-4a9ccd49facd"
@@ -744,9 +744,9 @@
     (property "Datasheet" "~" (at 143.51 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2fd578db-9808-434b-a131-42b5b1b6aab4))
-    (pin "2" (uuid e74c2eab-1494-4b9c-823d-8d5ba576ebb1))
-    (pin "3" (uuid c2d92c32-a724-40b1-a865-9b2200fd34d8))
+    (pin "1" (uuid 8c163ce3-efe6-4509-982c-2c33954e135a))
+    (pin "2" (uuid 108bc6e6-2ce4-4e53-a5d5-c1b7dd8c2e7b))
+    (pin "3" (uuid ec9374d5-c291-4353-b155-8b6f8dff7441))
     (instances
       (project "pseudo_walkie_talkie"
         (path "/9815d1f2-b58e-4e11-ae6c-807f9f1997ad/783f718b-b676-4f53-a70d-4a9ccd49facd"
@@ -846,8 +846,8 @@
     (property "Datasheet" "~" (at 161.29 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6ec53bf9-9045-46bb-95a6-8187ffc1145d))
-    (pin "2" (uuid a2e8e8cc-c9e9-4502-b8b8-254f2670b0a5))
+    (pin "1" (uuid 84705d79-01f0-459f-b81b-fb45b1f4b61b))
+    (pin "2" (uuid 828e82c0-23d8-4bfd-b40c-6379c6d74568))
     (instances
       (project "pseudo_walkie_talkie"
         (path "/9815d1f2-b58e-4e11-ae6c-807f9f1997ad/783f718b-b676-4f53-a70d-4a9ccd49facd"
@@ -897,8 +897,8 @@
     (property "Datasheet" "~" (at 179.07 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e35212d1-b724-45e7-a021-89baafb04995))
-    (pin "2" (uuid a2a68524-0e59-4e23-bc9d-231bffaf8014))
+    (pin "1" (uuid c6bcbc06-14ba-426a-b1ad-d5d889e87b2e))
+    (pin "2" (uuid 0ad2f6f1-d1f9-45a4-9311-7aeed1079ea1))
     (instances
       (project "pseudo_walkie_talkie"
         (path "/9815d1f2-b58e-4e11-ae6c-807f9f1997ad/783f718b-b676-4f53-a70d-4a9ccd49facd"
@@ -1005,8 +1005,8 @@
     (property "Datasheet" "~" (at 172.72 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 735bacac-0878-4764-b5f0-a37be2bac53a))
-    (pin "2" (uuid add5db3c-b1ff-4aa1-8dfd-237ebb943ff1))
+    (pin "1" (uuid a1410859-8936-47e3-9915-46f50c98bccd))
+    (pin "2" (uuid 3cf23dc9-47e9-4ba1-a7f8-1685d9596ce2))
     (instances
       (project "pseudo_walkie_talkie"
         (path "/9815d1f2-b58e-4e11-ae6c-807f9f1997ad/783f718b-b676-4f53-a70d-4a9ccd49facd"

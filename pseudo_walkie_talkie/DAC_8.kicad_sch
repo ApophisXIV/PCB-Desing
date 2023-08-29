@@ -5,11 +5,11 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "Device:C_Polarized_Small_US" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "C_Polarized_Small_US" (at 0.254 -2.032 0)
+      (property "Value" "C_Small" (at 0.254 -2.032 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -18,16 +18,24 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+      (property "ki_keywords" "capacitor cap" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Polarized capacitor, small US symbol" (at 0 0 0)
+      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "CP_*" (at 0 0 0)
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "C_Polarized_Small_US_0_1"
+      (symbol "C_Small_0_1"
+        (polyline
+          (pts
+            (xy -1.524 -0.508)
+            (xy 1.524 -0.508)
+          )
+          (stroke (width 0.3302) (type default))
+          (fill (type none))
+        )
         (polyline
           (pts
             (xy -1.524 0.508)
@@ -36,28 +44,8 @@
           (stroke (width 0.3048) (type default))
           (fill (type none))
         )
-        (polyline
-          (pts
-            (xy -1.27 1.524)
-            (xy -0.762 1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 1.27)
-            (xy -1.016 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 1.524 -0.762) (mid 0 -0.3734) (end -1.524 -0.762)
-          (stroke (width 0.3048) (type default))
-          (fill (type none))
-        )
       )
-      (symbol "C_Polarized_Small_US_1_1"
+      (symbol "C_Small_1_1"
         (pin passive line (at 0 2.54 270) (length 2.032)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -778,32 +766,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized_Small_US") (at 165.1 66.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 41dceebd-f760-472f-b14c-6ff00082b580)
-    (property "Reference" "C5" (at 167.64 64.3382 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "47nF" (at 167.64 66.8782 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 165.1 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 165.1 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bd1f7a1b-736b-4878-a0f2-d4a3effd425e))
-    (pin "2" (uuid 24f2b1ae-cd5f-480f-ad14-bb47b33ca446))
-    (instances
-      (project "pseudo_walkie_talkie"
-        (path "/9815d1f2-b58e-4e11-ae6c-807f9f1997ad/d1767ce7-acac-4b41-bf4e-ebbc025006c0"
-          (reference "C5") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_US") (at 144.78 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 508a434f-8742-463c-b91f-5deb820ad43c)
@@ -903,6 +865,32 @@
       (project "pseudo_walkie_talkie"
         (path "/9815d1f2-b58e-4e11-ae6c-807f9f1997ad/d1767ce7-acac-4b41-bf4e-ebbc025006c0"
           (reference "R15") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 165.1 66.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 72cdacae-57ba-4cf9-be55-872480a3d25c)
+    (property "Reference" "C5" (at 167.64 64.7763 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "47nF" (at 167.64 67.3163 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" (at 165.1 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 165.1 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e347db46-f947-478d-9573-3ee9af2046e4))
+    (pin "2" (uuid 0fdfff72-7a80-4cc6-add6-378648f16903))
+    (instances
+      (project "pseudo_walkie_talkie"
+        (path "/9815d1f2-b58e-4e11-ae6c-807f9f1997ad/d1767ce7-acac-4b41-bf4e-ebbc025006c0"
+          (reference "C5") (unit 1)
         )
       )
     )
