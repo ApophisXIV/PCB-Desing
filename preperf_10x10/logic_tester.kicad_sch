@@ -601,9 +601,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" (at 124.46 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 37f3e57c-203d-482d-afd3-9ea305793bc8))
-    (pin "2" (uuid c3338b33-6bdc-4495-b5e2-50b84fd58a54))
-    (pin "3" (uuid f2da023d-3af6-4373-b695-94b356489945))
+    (pin "1" (uuid 4f6b02aa-78d1-4290-bb3d-f267e39ef785))
+    (pin "2" (uuid 5f75cf97-db3d-4e49-8208-16a8491f67db))
+    (pin "3" (uuid 90582b8a-d8fb-4386-a98b-7674438859df))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f"
@@ -631,8 +631,8 @@
     (property "Datasheet" "~" (at 140.97 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7b955bfc-590b-4a0d-b17d-c4a01317ab41))
-    (pin "2" (uuid 3505aba3-b2b4-4296-b0d1-4383303fa4ae))
+    (pin "1" (uuid 0df9c7aa-6430-4572-affd-67b344bee67c))
+    (pin "2" (uuid 85fb19bf-dd4b-40d8-9a24-bfa08bec1dbd))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f"
@@ -660,7 +660,7 @@
     (property "Datasheet" "" (at 189.23 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7316c050-8b78-47b5-b404-b34147584b44))
+    (pin "1" (uuid 50726819-4de3-4e46-b4d6-5ab40b1c005a))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f"
@@ -688,8 +688,8 @@
     (property "Datasheet" "~" (at 154.94 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0a52e7b5-47ea-4ba9-a045-266bcfc275c5))
-    (pin "2" (uuid 0353f48c-81a9-440d-86c3-890d5620d6c6))
+    (pin "1" (uuid 42607e50-ec2f-466d-ac2e-4c3090913349))
+    (pin "2" (uuid 197d6df6-499c-407a-bcc8-4c1214bd6264))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f"
@@ -717,7 +717,7 @@
     (property "Datasheet" "" (at 189.23 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d920344e-b514-45fe-be62-98a7c41f6446))
+    (pin "1" (uuid 5c3329cf-7a85-4687-8e01-06db0bd415df))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f/91455e86-09ae-4e12-be12-3935d1b4921d"
@@ -742,8 +742,8 @@
     (property "Datasheet" "~" (at 154.94 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4c4351f6-6d1e-430f-9bbd-a92db6d4fee1))
-    (pin "2" (uuid 193682ec-1ac1-4d50-932b-88c98abad87a))
+    (pin "1" (uuid 990aab73-3944-454c-bfa5-b94ef1ed5da2))
+    (pin "2" (uuid e4cde1de-87bc-4ead-9539-36339f925c42))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f"
@@ -771,8 +771,8 @@
     (property "Datasheet" "~" (at 121.92 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3777a0ef-1fff-4296-9ce6-4bd8ac50ef11))
-    (pin "2" (uuid f65f5a3c-339f-4a42-b8e0-b899d90af318))
+    (pin "1" (uuid b32a6a49-f757-4268-b0fa-954d7796a0e1))
+    (pin "2" (uuid 4a57107c-3da5-43ec-86e8-1a97efdcfe49))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f"
@@ -800,8 +800,8 @@
     (property "Datasheet" "~" (at 191.77 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 70ab7ccd-0e09-42b0-9957-ba6332222d2c))
-    (pin "2" (uuid 7c5ee8b9-1e8f-4dc7-9bd5-d30683237dc6))
+    (pin "1" (uuid 055139c9-14bd-4fef-8194-a6dba930ab57))
+    (pin "2" (uuid 0d253133-7069-47c9-834e-641d1e840b43))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f"
@@ -829,7 +829,7 @@
     (property "Datasheet" "" (at 154.94 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 181ba566-72de-4a59-bddd-06a9b85b2a03))
+    (pin "1" (uuid a4e75a02-52a8-40b5-b72f-80eba4d8c830))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f"
@@ -857,8 +857,8 @@
     (property "Datasheet" "~" (at 135.89 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 032e1cd6-5ebc-409e-b47d-11a546b95636))
-    (pin "2" (uuid 6d37a55b-5aa2-4a47-99fa-fe9a9e6ac701))
+    (pin "1" (uuid 52222f71-0218-4c5c-95d6-ff7ac54f648a))
+    (pin "2" (uuid 0c1f47bb-5731-4332-a4e2-3ce711a2b766))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f"
@@ -886,7 +886,7 @@
     (property "Datasheet" "" (at 121.92 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3935467f-cb6e-4ce8-b805-1d4b85621f3c))
+    (pin "1" (uuid 2f830fbd-1efe-456b-a5e6-e6bcac4dcc84))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f"
@@ -914,9 +914,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf" (at 152.4 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 2a284cbc-3254-40df-b94d-514be52c9280))
-    (pin "2" (uuid 7eed17c2-cf2b-4712-9979-d0ae2739b3ce))
-    (pin "3" (uuid 781f3b9f-99ff-4b62-ac6b-75fac61f52c3))
+    (pin "1" (uuid c0f03fe2-d09b-4bf9-9b86-833e557dc029))
+    (pin "2" (uuid e58ad614-078f-4587-80a7-413a5d43141c))
+    (pin "3" (uuid 04d044e8-4123-4d4a-9ca9-f9f2235fbfc0))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f"
@@ -944,7 +944,7 @@
     (property "Datasheet" "" (at 121.92 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 96c7cfaf-43f0-403f-a937-9821b62a9a78))
+    (pin "1" (uuid 4618133c-e1d7-41d2-b39d-867d3dece1e6))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f"
@@ -972,8 +972,8 @@
     (property "Datasheet" "~" (at 121.92 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2afcce0c-3bd2-4877-857d-2e33879a29b1))
-    (pin "2" (uuid b1de3870-12d4-463a-bb9d-12a6b634a085))
+    (pin "1" (uuid bdc5b1b9-1b3e-4d85-b3f5-fdb8706e458c))
+    (pin "2" (uuid 63ce51dd-bea1-40c6-b37b-3c1e8bf2434f))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f"
@@ -1001,7 +1001,7 @@
     (property "Datasheet" "" (at 154.94 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 82117d68-cd39-43c4-ae72-83f43f069818))
+    (pin "1" (uuid 9afae808-dc74-4133-9bc5-3a0866114dde))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f"
