@@ -3296,7 +3296,7 @@
     (uuid fd89309d-d191-4cc6-8446-1f114ba554ba)
   )
 
-  (text_box "	 		  	IIH	 	 IIL	 IOH	IOL\n7400	NAND| 	0.04	-1.6	-0.4	16	[mA]\n74F02	NOR	|	0.02	-0.6	-1.0	20	[mA]\n74LS08	AND	|	0.02	-0.1	-0.4	 8	[mA]\n74ALS32	OR	|	0.02	-0.1	-0.4	 8	[mA]\n74F86 	XOR	|	0.02	-0.6	-1.0	20	[mA]\n74ALS04	NOT	|	0.02	-0.1	-0.4	 8	[mA]\n\n"
+  (text_box "	 		  	IIH	 	 IIL	 IOH	IOL\n7400	NAND| 	0.04	-1.6	-0.4	16	[mA]\n74F02	NOR	|	0.02	-0.6	-1.0	20	[mA]\n74LS08	AND	| 	0.02 	-0.36 	-0.4 	 8 	[mA]\n74ALS32	OR	|	0.02	-0.1	-0.4	 8	[mA]\n74F86 	XOR	|	0.02	-0.6	-1.0	20	[mA]\n74ALS04	NOT	|	0.02	-0.1	-0.4	 8	[mA]\n\n"
     (at 69.85 40.64 0) (size 64.77 16.51)
     (stroke (width 0) (type solid) (color 0 0 0 1))
     (fill (type color) (color 255 255 255 1))
