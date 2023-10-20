@@ -2867,10 +2867,6 @@
     (stroke (width 0) (type default))
     (uuid 10444737-ee6b-44df-a81d-e9216b7ddffd)
   )
-  (wire (pts (xy 116.84 101.6) (xy 134.62 101.6))
-    (stroke (width 0) (type default))
-    (uuid 134135b2-be40-480d-af5f-c0ae10a4cad4)
-  )
   (wire (pts (xy 224.79 43.18) (xy 227.33 43.18))
     (stroke (width 0) (type default))
     (uuid 1441a23a-6042-4532-b67e-f3f14ff93d61)
@@ -2923,6 +2919,10 @@
     (stroke (width 0) (type default))
     (uuid 2efd8031-c0d0-452c-b3ea-11b31c385553)
   )
+  (wire (pts (xy 119.38 101.6) (xy 116.84 101.6))
+    (stroke (width 0) (type default))
+    (uuid 34dcbafe-0afa-4325-91a6-d6f3c183a51c)
+  )
   (wire (pts (xy 207.01 58.42) (xy 209.55 58.42))
     (stroke (width 0) (type default))
     (uuid 37e97e4e-2251-4133-914a-fb05e867e975)
@@ -2930,6 +2930,10 @@
   (wire (pts (xy 207.01 45.72) (xy 207.01 52.07))
     (stroke (width 0) (type default))
     (uuid 39be1bcd-6b87-439d-8519-563e4680d57e)
+  )
+  (wire (pts (xy 119.38 97.79) (xy 144.78 97.79))
+    (stroke (width 0) (type default))
+    (uuid 39e230b8-6869-48db-a0e8-236c2b43b235)
   )
   (wire (pts (xy 199.39 40.64) (xy 209.55 40.64))
     (stroke (width 0) (type default))
@@ -3010,10 +3014,6 @@
   (wire (pts (xy 83.82 182.88) (xy 83.82 185.42))
     (stroke (width 0) (type default))
     (uuid 6a973da4-4edc-4a0b-b34b-6737336c5aec)
-  )
-  (wire (pts (xy 134.62 97.79) (xy 144.78 97.79))
-    (stroke (width 0) (type default))
-    (uuid 6b46400d-4b01-4c68-a4eb-255fd0003657)
   )
   (wire (pts (xy 162.56 110.49) (xy 162.56 100.33))
     (stroke (width 0) (type default))
@@ -3106,6 +3106,10 @@
   (wire (pts (xy 224.79 60.96) (xy 227.33 60.96))
     (stroke (width 0) (type default))
     (uuid 9ea7d34f-b66d-455f-a6cb-4fbb1fdfcafa)
+  )
+  (wire (pts (xy 119.38 97.79) (xy 119.38 101.6))
+    (stroke (width 0) (type default))
+    (uuid a0746bfa-7a83-4af3-8529-fd1b795b1495)
   )
   (wire (pts (xy 246.38 45.72) (xy 246.38 50.8))
     (stroke (width 0) (type default))
@@ -3263,10 +3267,6 @@
     (stroke (width 0) (type default))
     (uuid ee0c397c-b1d4-42a8-8a75-293b6b87aadd)
   )
-  (wire (pts (xy 134.62 101.6) (xy 134.62 97.79))
-    (stroke (width 0) (type default))
-    (uuid efbb7447-0ed7-43da-b4e8-43cd565b8d96)
-  )
   (wire (pts (xy 63.5 90.17) (xy 63.5 101.6))
     (stroke (width 0) (type default))
     (uuid f0a795c7-e7fe-4bfb-8c16-4c561c125f03)
@@ -3388,7 +3388,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 48.26 170.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00210bd0-77f6-4163-987a-6c4420196737)
     (property "Reference" "C9" (at 45.72 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3402,8 +3402,8 @@
     (property "Datasheet" "~" (at 48.26 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 60d8867e-0a6f-46c0-9db5-3aca00d3cc70))
-    (pin "2" (uuid d1e5388d-cd3e-4733-b8e5-5a4d571c973e))
+    (pin "1" (uuid 3d0e8007-e219-4699-bcec-afb0f237775c))
+    (pin "2" (uuid 7b6b2202-1c56-4d55-b78a-5313c64684fb))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f/486c4496-83f1-48b0-acba-ed297d2bbe4f"
@@ -3838,10 +3838,10 @@
   (symbol (lib_id "74xx:74LS02") (at 234.95 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34b1dbbf-ec1f-4fb8-8a4b-db6ead97988f)
-    (property "Reference" "U5" (at 234.95 52.07 0)
+    (property "Reference" "U5" (at 234.95 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS02" (at 234.95 54.61 0)
+    (property "Value" "74LS02" (at 234.95 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket" (at 234.95 45.72 0)
@@ -4211,7 +4211,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 27.94 170.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76f30fe3-c020-4c9c-8a93-528e33662a6d)
     (property "Reference" "C5" (at 26.67 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4225,8 +4225,8 @@
     (property "Datasheet" "~" (at 27.94 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 46124157-1b82-4edb-827f-46797d194395))
-    (pin "2" (uuid b4ebd345-cf06-46da-ab58-ff14804c3850))
+    (pin "1" (uuid 2c81af14-b56b-4ebf-8ffe-db35132c1cd3))
+    (pin "2" (uuid a2fd4a03-70ae-4aac-8a25-fbfabc6343f6))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f/486c4496-83f1-48b0-acba-ed297d2bbe4f"
@@ -4265,7 +4265,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 53.34 170.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7efc770d-0ce0-40fb-a91a-f11bb977751a)
     (property "Reference" "C10" (at 50.8 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4279,8 +4279,8 @@
     (property "Datasheet" "~" (at 53.34 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 60ae1b31-c807-4805-8c64-c47bbaea12e3))
-    (pin "2" (uuid 1d0fa5f3-5b35-4caa-9026-8147d6d2fa3b))
+    (pin "1" (uuid 2e0ac951-53de-4787-929d-01f6ce4a0598))
+    (pin "2" (uuid a169ef77-56ff-4797-a2d7-052c6d325b53))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f/486c4496-83f1-48b0-acba-ed297d2bbe4f"
@@ -4469,7 +4469,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 38.1 170.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9208617c-f79d-423b-9004-7044326ad6fa)
     (property "Reference" "C7" (at 36.83 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4483,8 +4483,8 @@
     (property "Datasheet" "~" (at 38.1 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e63d5bb5-bae1-4219-b16e-f961cf6a82e6))
-    (pin "2" (uuid 3da59062-f3e6-49a1-9283-ae7f0a5a92f1))
+    (pin "1" (uuid 0543f4b1-80cd-4cf5-8c16-6c1d9e8e50b3))
+    (pin "2" (uuid 5288c518-8370-41e6-9d7a-d8ff8873f48a))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f/486c4496-83f1-48b0-acba-ed297d2bbe4f"
@@ -4538,10 +4538,10 @@
   (symbol (lib_id "74xx:74LS02") (at 234.95 58.42 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9fa33e14-1db8-4893-bb67-a9bf6eafa46f)
-    (property "Reference" "U5" (at 234.95 49.53 0)
+    (property "Reference" "U5" (at 234.95 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS02" (at 234.95 52.07 0)
+    (property "Value" "74LS02" (at 234.95 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket" (at 234.95 58.42 0)
@@ -5054,7 +5054,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 33.02 170.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3891ca6-707d-4390-8ff7-378565fed087)
     (property "Reference" "C6" (at 31.75 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5068,8 +5068,8 @@
     (property "Datasheet" "~" (at 33.02 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 043187bb-5539-4e22-b168-f561669f813d))
-    (pin "2" (uuid 107f8a78-e61e-42de-ad67-398e5ff34ec0))
+    (pin "1" (uuid d45b23c6-ac4c-4505-b791-c95b3f82f1ea))
+    (pin "2" (uuid e713fc28-2448-4d62-a5b1-6a5211b92e80))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f/486c4496-83f1-48b0-acba-ed297d2bbe4f"
@@ -5309,7 +5309,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 43.18 170.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f685467a-2323-4430-a804-0fb364f36f48)
     (property "Reference" "C8" (at 40.64 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5323,8 +5323,8 @@
     (property "Datasheet" "~" (at 43.18 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 712debcf-fd7c-49fb-a640-ba4a97f62b94))
-    (pin "2" (uuid 0da63f83-b3cc-4062-b4b7-1ec17f93833a))
+    (pin "1" (uuid a880e6af-0567-4659-af59-7fa059716380))
+    (pin "2" (uuid 39d8aeb9-3140-48a1-9d8f-a5948e0e1875))
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f/486c4496-83f1-48b0-acba-ed297d2bbe4f"
