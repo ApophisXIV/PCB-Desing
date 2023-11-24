@@ -2125,7 +2125,7 @@
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f/5e3fd1e9-02f9-4234-9fa8-a673522c8ef2"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -2150,7 +2150,7 @@
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f/5e3fd1e9-02f9-4234-9fa8-a673522c8ef2"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -2458,7 +2458,7 @@
     (property "Value" "R_US" (at 50.8 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 51.054 53.594 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (at 51.054 53.594 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 50.8 54.61 0)
@@ -2633,7 +2633,7 @@
     (instances
       (project "preperf_10x10"
         (path "/7bf6ff06-236f-433e-86e9-cc0b656b998f/5e3fd1e9-02f9-4234-9fa8-a673522c8ef2"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
