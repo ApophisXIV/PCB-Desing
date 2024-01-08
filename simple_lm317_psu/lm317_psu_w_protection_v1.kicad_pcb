@@ -1377,7 +1377,7 @@
     )
   )
 
-  (gr_line (start 117.505 77.325) (end 170.21 77.325)
+  (gr_line (start 117.856 77.2) (end 167.85 77.216)
     (stroke (width 0.15) (type default)) (layer "Dwgs.User") (tstamp ef0ffc04-b614-48dc-94a3-99ff14d309b9))
   (gr_rect (start 117.875 71.92) (end 167.875 104.775)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp ea89bb17-653f-48c4-bc40-af23f83cbb73))
@@ -1429,10 +1429,10 @@
     (fill yes (thermal_gap 0.5) (thermal_bridge_width 0.5))
     (polygon
       (pts
-        (xy 112.425 69.705)
-        (xy 173.99 69.85)
-        (xy 173.99 106.68)
-        (xy 112.425 106.68)
+        (xy 117.85 71.9)
+        (xy 167.9 71.9)
+        (xy 167.9 104.8)
+        (xy 117.85 104.8)
       )
     )
     (filled_polygon
