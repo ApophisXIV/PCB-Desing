@@ -1,0 +1,21 @@
+CH340G -> Bridge USB / UART
+
+bridge PROT1 / PROT2 = puente
+SIE -> Serial Interface Engine = Motor de interfaz serie (USB)
+
+Nibble -> 4 bits
+
+Side = Lado / Parte
+
+1 Byte = 2 Nibbles -> [Nibble HS][Nibble LS] -> 0xFA -> 1111 1010 -> 15 * 16^1 + 10*16^0
+
+Notacion en C para sistemas de numeracion (no decimal) -> 0x [Hexa], 0b [Binario], 00 [Octal]
+
+# ---------------------------------------------------------------------------- #
+    PORTD &= 0x0F;
+    PORTD |= ~(1 << (7 - y)) & 0xF0;
+
+    1000 0000 -> 0111 1111 -> 0111 0000 -> Aplico OR
+    0100 0000 -> 1011 1111 -> 1011 0000 -> Aplico OR
+    0010 0000 -> 1101 1111 -> 1101 0000 -> Aplico OR
+# ---------------------------------------------------------------------------- #
