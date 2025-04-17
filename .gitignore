@@ -1,2 +1,3 @@
 # Avoid backup folders
 *.zip
+*.lck
