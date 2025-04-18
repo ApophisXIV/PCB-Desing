@@ -1,0 +1,27 @@
+* ASK / OOK transmitter
+* 433.92 MHz  10mW  5V
+
+.model RF_Switch SW(Ron=0.01 Roff=1g Vt=2.5 Vh=0)
+.subckt FS1000A VCC Data GND
+    *                                 /
+    *                                /
+    *  1-------------(RF_Switch_in)+/     +(RF_Switch_Out)---+
+    *  |                           |      |                  |
+    *  |             (RF_Switch_ctrl)     |                  R1 (50 Ohm)
+    *  |                           |      |                  |
+    * V1 (sin(0 2.5 433.92Meg)    V2      |                  |
+    *  |                           |      |                  |
+    * GND (0)                     GND    GND                 |
+    *  |                           |      |                  |
+    *  +---------------------------+      +------------------+
+
+
+    V1 1 GND SIN(0 2.5 433.92Meg)
+    V2 2 GND PULSE(0 5 0 1n 1n 0.5m 1m)
+    R1 Data GND 50
+    S1 1 Data 2 GND RF_Switch
+
+    * Simulate consumption
+    R2 VCC GND 500
+
+.ends FS1000A
